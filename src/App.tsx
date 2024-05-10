@@ -4,8 +4,8 @@ function App() {
 
   return (
 
-    <div className="bg-black">
-      <canvas id="canvas" className="h-screen w-screen">    </canvas>
+    <div className="bg-black absolute h-screen w-screen">
+      <canvas id="canvas" className="h-screen w-screen absolute"></canvas>
     <div className="flex h-screen">
       <div className="m-auto">
       <h1 className="text-5xl text-center text-white font-hindSilliguri font-thin leading-10">
