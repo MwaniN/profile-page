@@ -5,6 +5,7 @@ function App() {
   return (
 
     <div className="bg-black">
+      <canvas id="canvas" className="h-screen w-screen">    </canvas>
     <div className="flex h-screen">
       <div className="m-auto">
       <h1 className="text-5xl text-center text-white font-hindSilliguri font-thin leading-10">
