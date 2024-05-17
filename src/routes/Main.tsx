@@ -5,8 +5,8 @@ function Main() {
 
   return (
 
-    <div id="main" className="bg-black h-screen w-screen">
-      <canvas id="canvas" className="h-screen w-screen absolute"></canvas>
+    <div id="main" className="bg-black min-h-screen min-w-screen">
+      <canvas id="canvas" className="h-100% w-100% absolute"></canvas>
     <div className="flex h-screen">
       <div className="m-auto z-10">
       <h1 className="text-5xl tracking-normal text-center text-white font-hindSilliguri font-thin leading-10 mx-2">
