@@ -4,7 +4,7 @@ function App() {
 
   return (
 
-    <div className="bg-black absolute h-screen w-screen">
+    <div id="main" className="bg-black absolute h-screen w-screen">
       <canvas id="canvas" className="h-screen w-screen absolute"></canvas>
     <div className="flex h-screen">
       <div className="m-auto z-10">
