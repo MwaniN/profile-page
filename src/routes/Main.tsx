@@ -1,10 +1,10 @@
 // import React from 'react';
 import { Link } from 'react-router-dom';
 import ScrollToHashElement from '../scrollToHashElement/scrollToHashElement.tsx';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
-const downArrow = <FontAwesomeIcon icon={faArrowDown} size="sm"/>
+// // const downArrow = <FontAwesomeIcon icon={faArrowDown} size="sm"/>
 
 
 function Main() {
