@@ -1,6 +1,11 @@
 // import React from 'react';
 import { Link } from 'react-router-dom';
 import ScrollToHashElement from '../scrollToHashElement/scrollToHashElement.tsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+
+const downArrow = <FontAwesomeIcon icon={faArrowDown} size="sm"/>
+
 
 function Main() {
 
@@ -19,6 +24,7 @@ function Main() {
     </h1>
     <button className='text-3xl m-auto text-red-500 font-hindSilliguri font-thin leading-10 tracking-normal block'>
         <Link to="/#about">View My Work</Link>
+        {/* <Link to="/#about" className='block w-min m-auto'>{downArrow}</Link> */}
         </button>
       </div>
     </div>
