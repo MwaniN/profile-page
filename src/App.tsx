@@ -1,6 +1,6 @@
 // import './App.css
 import Main from './routes/Main.tsx';
-import About from './routes/About.tsx';
+import SubPages from './routes/SubPages.tsx';
 
 // have a separate background for the main section and the about section
 
@@ -16,7 +16,7 @@ function App() {
   return (
     <div id="app">
     <Main />
-    <About />
+    <SubPages />
     </div>
   )
 }
