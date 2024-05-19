@@ -10,7 +10,9 @@ const About = () => {
               <li className='px-1 hover:text-white focus:text-white focus:outline-none'>
               <Link to="/#main">Home</Link>
                 </li>
-              <li className='px-1 hover:text-white focus:text-white focus:outline-none'>About</li>
+              <li className='px-1 hover:text-white focus:text-white focus:outline-none'>
+              <Link to="/#about">About</Link>
+              </li>
               <li className='px-1 hover:text-white focus:text-white focus:outline-none'>Projects</li>
               <li className='px-1 hover:text-white focus:text-white focus:outline-none'>Contact</li>
             </ul>
