@@ -11,7 +11,7 @@ function Main() {
 
   return (
 
-    <div id="main" className="bg-black min-h-screen min-w-screen z-20">
+    <div id="main" className="bg-black min-h-screen min-w-screen z-20 m-0">
       <canvas id="canvas" className="h-100% w-100% absolute z-10"></canvas>
       <ScrollToHashElement />
     <div className="flex h-screen">
