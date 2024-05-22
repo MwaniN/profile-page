@@ -15,7 +15,7 @@ const Header = () => {
         <li className='px-3 md:px-4 hover:text-white focus:text-white focus:outline-none'>
         <Link to="/#projects">Projects</Link>
         </li>
-        <li className='px-3 md:px-4 md:mr-32 hover:text-white focus:text-white focus:outline-none'>
+        <li className='px-3 md:px-4 md:mr-18 hover:text-white focus:text-white focus:outline-none'>
         <Link to="/#contact">Contact</Link>
         </li>
       </ul>
