@@ -15,8 +15,8 @@ const About = () => {
 
   return (<div id="about" className='min-h-screen min-w-screen'>
     <Header />
-<div className='text-4xl md:text-5xl lg:text-6xl text-white m-auto w-min font-hindSilliguri font-thin mt-16'>About</div>
-<div className='text-base tracking-normal text-left text-wrap text-white font-hindSilliguri font-thin leading-relaxed mx-2 mt-5'>
+<div className='text-4xl md:text-5xl lg:text-6xl text-white m-auto w-min font-hindSilliguri font-thin mt-16 md:mb-8'>About</div>
+<div className='text-base tracking-normal lg:w-1/3 md:m-auto text-left text-wrap text-white font-hindSilliguri font-thin leading-relaxed mx-2 sm:mt-8 px-3 py-2'>
   I live to learn something new every day. I also enjoy making things.
   I also enjoy figuring out solutions to things. I actually enjoy trying to untangle knots, because it's fun and can be a meditative practice where you constantly have to
   check / reevaluate your assumptions. Software engineering is fun because you get to create and learn things at the same time! When not creating or learning,
