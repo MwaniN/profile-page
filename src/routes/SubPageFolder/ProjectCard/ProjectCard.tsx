@@ -4,3 +4,14 @@
 
 // include background image
 // name and link if applicable, also "Learn More" should go to GitHub
+
+const ProjectCard = () => {
+
+  return (
+    <div>
+      Project Goes Here
+    </div>
+  )
+}
+
+export default ProjectCard;
