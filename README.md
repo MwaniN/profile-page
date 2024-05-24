@@ -1,10 +1,10 @@
 # My Profile Page
 
-This is a portfolio paged designed toshare my work, and also help me practice with Tailwind and Typescript.
+This is a portfolio paged designed to share my work, and also help me practice with Tailwind CSS and Typescript.
 
 ## Technologies used
 
-Website:
+**Website:**
 
 Typescript
 
@@ -12,7 +12,7 @@ React
 
 Tailwind CSS
 
-Deployment:
+**Deployment:**
 
 Vite for development and production
 
