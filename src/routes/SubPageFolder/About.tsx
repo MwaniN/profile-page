@@ -2,6 +2,17 @@
 import Header from './Header/Header.tsx';
 //import { ReactComponent as Person } from "../../assets/person-outline.svg";
 import css from './images/css.png';
+import express from '.images/express.png';
+import git from './images/git.png';
+import html from './images/html.png';
+import javascript from './images/javascript.png';
+import mongodb from './images/mongodb.png';
+import node from './images/node.png';
+import postgres from './images/postgresql.png';
+import react from './images/react.png';
+import tailwind from './images/tailwind.png';
+import typescript from './images/typescript.png';
+
 
 const About = () => {
 
