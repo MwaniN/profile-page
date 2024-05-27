@@ -1,6 +1,7 @@
 // import { Link } from 'react-router-dom';
 import Header from './Header/Header.tsx';
 //import { ReactComponent as Person } from "../../assets/person-outline.svg";
+import css from './images/css.png';
 
 const About = () => {
 
@@ -21,6 +22,9 @@ const About = () => {
 <div className='text-base lg:text-xl tracking-normal w-4/5 md:3/4 lg:w-1/2 text-left text-wrap text-white font-hindSilliguri font-thin leading-relaxed m-auto py-2'>
   I enjoy learning, creating new things, and finding solutions. Software engineering is fun because you get to create and learn things at the same time! When not creating or learning,
   I may be catching a movie, enjoying nature, or exercising.
+</div>
+<div id="CSS" className='h-[5rem] w-[5rem]'>
+  <img className="z-50 bg-transparent object-scale-down" src={css} alt="CSS Logo" />
 </div>
 </div>)
 }
