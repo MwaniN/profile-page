@@ -34,38 +34,38 @@ const About = () => {
   I enjoy learning, creating new things, and finding solutions. Software engineering is fun because you get to create and learn things at the same time! When not creating or learning,
   I may be catching a movie, enjoying nature, or exercising.
 </div>
-<div id="logo-container" className='flex m-auto justify-center'>
-<div id="css" className='h-[5rem] w-[5rem]'>
+<div id="logo-container" className='flex m-auto justify-center flex-wrap w-4/5'>
+<div id="css" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={css} alt="CSS Logo" />
 </div>
-<div id="express" className='h-[5rem] w-[5rem]'>
+<div id="express" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-slate-500 object-scale-down" src={express} alt="Express Logo" />
 </div>
-<div id="git" className='h-[5rem] w-[5rem]'>
+<div id="git" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={git} alt="Git Logo" />
 </div>
-<div id="html" className='h-[5rem] w-[5rem]'>
+<div id="html" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={html} alt="Html Logo" />
 </div>
-<div id="javascript" className='h-[5rem] w-[5rem]'>
+<div id="javascript" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={javascript} alt="Git Logo" />
 </div>
-<div id="mongodb" className='h-[5rem] w-[5rem]'>
+<div id="mongodb" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={mongodb} alt="Mongodb Logo" />
 </div>
-<div id="node" className='h-[5rem] w-[5rem]'>
+<div id="node" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={node} alt="Node Logo" />
 </div>
-<div id="postgres" className='h-[5rem] w-[5rem]'>
+<div id="postgres" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={postgres} alt="Postgres Logo" />
 </div>
-<div id="react" className='h-[5rem] w-[5rem]'>
+<div id="react" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={react} alt="React Logo" />
 </div>
-<div id="tailwind" className='h-[5rem] w-[5rem]'>
+<div id="tailwind" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={tailwind} alt="Tailwind Logo" />
 </div>
-<div id="typescript" className='h-[5rem] w-[5rem]'>
+<div id="typescript" className='h-[6vh] w-[6vh]'>
   <img className="z-50 bg-transparent object-scale-down" src={typescript} alt="Typescript Logo" />
 </div>
 </div>
