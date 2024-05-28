@@ -18,6 +18,7 @@ const projects = [
 
 const Projects = () => {
   return (
+    <div>
     <div id="projects" className="min-h-screen min-w-screen">
       <div className="text-white w-min m-auto text-5xl pt-16">Projects</div>
       {function () {
@@ -28,6 +29,7 @@ const Projects = () => {
 
         return projectList
       }()}
+    </div>
     </div>
   )
 }
