@@ -18,12 +18,14 @@ interface ProjectCardProps {
 const ProjectCard = ( { title, url, description, github, image, alt, id} : ProjectCardProps ) => {
 
   return (
-    <div id={id} className="mt-10 grid grid-cols-[3fr_2fr] grid-rows[2fr_2fr_4fr] w-3/4">
+    <div id={id} className="mt-10 flex">
+      <div id="image-container" className="bg-green-700">
+      <img src={image} alt={alt}/>
+      </div>
       <h2 id="title" className="text-white">{title}</h2>
       <h3 id="description" className="text-white">{description}</h3>
       <a href={url} className="text-white">Live App</a>
       <a href={github} className="text-white">Learn More</a>
-      <img src={image} alt={alt} />
 
 
     </div>

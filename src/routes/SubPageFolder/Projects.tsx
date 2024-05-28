@@ -1,5 +1,6 @@
 
 import ProjectCard from "./ProjectCard/ProjectCard";
+import portfolio from "./images/portfolio-site.png";
 
 
 const projects = [
@@ -8,7 +9,7 @@ const projects = [
     url: "mwani.info/#projects",
     github: "https://github.com/MwaniN/profile-page",
     description: "The site you're on right now, built with TypeScript, React and Tailwind CSS",
-    image: "https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: portfolio,
     alt: "Test landscape picture",
     id: "portfolio-site"
 
