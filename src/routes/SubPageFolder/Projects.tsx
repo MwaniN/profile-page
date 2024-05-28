@@ -30,7 +30,6 @@ const Projects = () => {
         return projectList
       }()}
     </div>
-    </div>
   )
 }
 
