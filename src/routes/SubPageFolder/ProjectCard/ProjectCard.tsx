@@ -20,9 +20,9 @@ interface ProjectCardProps {
 const ProjectCard = ( { title, url, description, github, image, alt, id} : ProjectCardProps ) => {
 
   return (
-    <div id={id} className="mt-10 flex w-3/4">
-      <div id="image-container" className="bg-green-700">
-      <img src={image} alt={alt}/>
+    <div id={id} className="mt-10 m-auto flex w-4/5">
+      <div id="image-container" className="border-green-700 border-8 w-[100vh] h-fit">
+      <img src={image} alt={alt} className='contain-content'/>
       </div>
       <div id="info">
       <h2 id="title" className="text-white">{title}</h2>
