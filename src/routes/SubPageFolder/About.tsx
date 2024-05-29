@@ -26,6 +26,9 @@ const About = () => {
   // div 2 > images all with their own div and a border <div 2
   // make them side by side on larger screens and on top of the other on smaller screens
 
+// MAKE SEPARATE VARIABLES FOR ICON SIZE, PUT BREAKPOINTS AT EACH ICON REFERRING
+// TO THE INDIVIDUAL VARIABLES WICH CAN BE UPDATED IN ONE PLACE
+
   return (<div id="about" className='min-h-screen min-w-screen'>
     <Header />
 <div className='text-4xl md:text-5xl lg:text-6xl text-white m-auto w-min font-hindSilliguri font-thin mt-16 mb-10'>About</div>
