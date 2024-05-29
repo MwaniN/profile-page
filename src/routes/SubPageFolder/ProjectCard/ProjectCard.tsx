@@ -24,7 +24,7 @@ const ProjectCard = ( { title, url, description, github, image, alt, id} : Proje
       <div id="image-container" className="border-green-700 border-8 w-[100vh] h-fit">
       <img src={image} alt={alt} className='contain-content'/>
       </div>
-      <div id="info">
+      <div id="info" className='relative -left-20 top-20'>
       <h2 id="title" className="text-white">{title}</h2>
       <h3 id="description" className="text-white">{description}</h3>
       <a href={url} className="text-white block hover:text-green-400">
