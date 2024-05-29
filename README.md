@@ -16,10 +16,6 @@ Tailwind CSS
 
 **Deployment:**
 
-Vite for development and production
+Vite
 
 Caddy and Nixpacks for help with deploying to Railway
-
-GoDaddy - domain registrar
-
-DNSimple - Nameserver
