@@ -8,7 +8,7 @@ const projects = [
     title: "Portfolio Site",
     url: "mwani.info/#projects",
     github: "https://github.com/MwaniN/profile-page",
-    description: "The site you're on right now, built with TypeScript, React and Tailwind CSS",
+    description: "This site, built with TypeScript, React and Tailwind CSS",
     image: portfolio,
     alt: "Test landscape picture",
     id: "portfolio-site"

@@ -1,8 +1,8 @@
 # My Profile Page
 
-This is a portfolio page designed to share my work, and also help me practice with Tailwind CSS and Typescript.
+This is a portfolio page designed to practice TypeScript and Tailwind CSS, and to share my work.
 
-[Mwani.info](Mwani.info)
+Mwani.info
 
 ## Technologies used
 
@@ -16,10 +16,6 @@ Tailwind CSS
 
 **Deployment:**
 
-Vite for development and production
+Vite
 
 Caddy and Nixpacks for help with deploying to Railway
-
-GoDaddy - domain registrar
-
-DNSimple - Nameserver

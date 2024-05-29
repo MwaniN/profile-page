@@ -20,13 +20,13 @@ interface ProjectCardProps {
 const ProjectCard = ( { title, url, description, github, image, alt, id} : ProjectCardProps ) => {
 
   return (
-    <div id={id} className="mt-10 flex w-3/4">
-      <div id="image-container" className="bg-green-700">
-      <img src={image} alt={alt}/>
+    <div id={id} className="mt-10 m-auto flex w-5/6">
+      <div id="image-container" className="border-green-700 border-8 w-[100vh] h-fit">
+      <img src={image} alt={alt} className='contain-content'/>
       </div>
-      <div id="info">
+      <div id="info" className='relative -left-5 top-1 md:top-5 lg:-left-20 lg:top-20 w-[100vh] h-fit'>
       <h2 id="title" className="text-white">{title}</h2>
-      <h3 id="description" className="text-white">{description}</h3>
+      <h3 id="description" className="text-white relative">{description}</h3>
       <a href={url} className="text-white block hover:text-green-400">
       <Link to="/#projects">Live App</Link></a>
       <a href={github} target="_blank" className="text-white block hover:text-green-400">Learn More</a>
