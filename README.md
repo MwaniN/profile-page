@@ -1,6 +1,6 @@
 # My Profile Page
 
-This is a portfolio page designed to share my work, and also help me practice with Tailwind CSS and Typescript.
+This is a portfolio page designed to practice TypeScript and Tailwind CSS, and to share my work.
 
 Mwani.info
 
