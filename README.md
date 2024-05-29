@@ -2,7 +2,7 @@
 
 This is a portfolio page designed to share my work, and also help me practice with Tailwind CSS and Typescript.
 
-[Mwani.info](Mwani.info)
+Mwani.info
 
 ## Technologies used
 
