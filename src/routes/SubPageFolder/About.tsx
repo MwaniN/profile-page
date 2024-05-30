@@ -40,8 +40,9 @@ const About = () => {
 
 <div id="skill-container" className='flex m-auto justify-center flex-wrap w-4/5'>
   <div id="skill-row-1" className='flex-col mx-3 my-4 pt-8'>
-  <div id="css" className='h-[6vh] w-[6vh] border-opacity-80 border-solid border-white'>
+  <div id="css" className='min-h-fit w-[6vh] border-opacity-80 border-solid border-white'>
   <img className="bg-transparent object-scale-down" src={css} alt="CSS Logo" />
+  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>CSS</text>
 </div>
 <div id="express" className='h-[6vh] w-[6vh]'>
   <img className="bg-slate-500 object-scale-down" src={express} alt="Express Logo" />
