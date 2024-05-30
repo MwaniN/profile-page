@@ -37,40 +37,49 @@ const About = () => {
   I enjoy learning new things, creating new things, and finding solutions. Software engineering is fun because you get to create and learn at the same time. When not at my computer I may
   be catching a movie, enjoying nature, or staying fit.
 </div>
-<div id="logo-container" className='flex m-auto justify-center flex-wrap w-4/5'>
-<div id="css" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={css} alt="CSS Logo" />
+
+<div id="skill-container" className='flex m-auto justify-center flex-wrap w-4/5'>
+  <div id="skill-row-1" className='flex-col mx-3 my-4 pt-8'>
+  <div id="css" className='h-[6vh] w-[6vh] border-opacity-80 border-solid border-white'>
+  <img className="bg-transparent object-scale-down" src={css} alt="CSS Logo" />
 </div>
 <div id="express" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-slate-500 object-scale-down" src={express} alt="Express Logo" />
+  <img className="bg-slate-500 object-scale-down" src={express} alt="Express Logo" />
 </div>
 <div id="git" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={git} alt="Git Logo" />
+  <img className="bg-transparent object-scale-down" src={git} alt="Git Logo" />
 </div>
-<div id="html" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={html} alt="Html Logo" />
+  </div>
+
+  <div id="skill-row-2" className='flex-col mx-3 my-4'>
+  <div id="html" className='h-[6vh] w-[6vh]'>
+  <img className="bg-transparent object-scale-down" src={html} alt="Html Logo" />
 </div>
 <div id="javascript" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={javascript} alt="Git Logo" />
+  <img className="bg-transparent object-scale-down" src={javascript} alt="Git Logo" />
 </div>
 <div id="mongodb" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={mongodb} alt="Mongodb Logo" />
+  <img className="bg-transparent object-scale-down" src={mongodb} alt="Mongodb Logo" />
 </div>
 <div id="node" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={node} alt="Node Logo" />
+  <img className="bg-transparent object-scale-down" src={node} alt="Node Logo" />
 </div>
 <div id="postgres" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={postgres} alt="Postgres Logo" />
+  <img className="bg-transparent object-scale-down" src={postgres} alt="Postgres Logo" />
 </div>
-<div id="react" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={react} alt="React Logo" />
+  </div>
+
+  <div id="skill-row-3" className='flex-col mx-3 my-4 pt-8'>
+  <div id="react" className='h-[6vh] w-[6vh]'>
+  <img className="bg-transparent object-scale-down" src={react} alt="React Logo" />
 </div>
 <div id="tailwind" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={tailwind} alt="Tailwind Logo" />
+  <img className="bg-transparent object-scale-down" src={tailwind} alt="Tailwind Logo" />
 </div>
 <div id="typescript" className='h-[6vh] w-[6vh]'>
-  <img className="z-50 bg-transparent object-scale-down" src={typescript} alt="Typescript Logo" />
+  <img className="bg-transparent object-scale-down" src={typescript} alt="Typescript Logo" />
 </div>
+  </div>
 </div>
 </div>)
 }
