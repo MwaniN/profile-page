@@ -26,8 +26,7 @@ const About = () => {
   // div 2 > images all with their own div and a border <div 2
   // make them side by side on larger screens and on top of the other on smaller screens
 
-// MAKE SEPARATE VARIABLES FOR ICON SIZE, PUT BREAKPOINTS AT EACH ICON REFERRING
-// TO THE INDIVIDUAL VARIABLES WICH CAN BE UPDATED IN ONE PLACE
+// Make changes in the global css file for the font size for the skill tree, too tedious to do it otherwise.
 
   return (<div id="about" className='min-h-screen min-w-screen'>
     <Header />
@@ -42,7 +41,7 @@ const About = () => {
   <div id="skill-row-1" className='flex-col mx-3 my-4 pt-8'>
   <div id="css" className='min-h-fit w-[6vh] border-opacity-80 border-solid border-white'>
   <img className="bg-transparent object-scale-down" src={css} alt="CSS Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>CSS</text>
+  <text className='text- text-white max-w-fit max-h-fit m-auto block'>CSS</text>
 </div>
 <div id="express" className='min-h-fit w-[6vh] flex-row'>
   <img className="bg-slate-500 object-scale-down justify-center" src={express} alt="Express Logo" />
