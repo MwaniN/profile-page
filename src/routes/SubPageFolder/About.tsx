@@ -33,8 +33,10 @@ const About = () => {
 <div className='text-4xl md:text-5xl lg:text-6xl text-white m-auto w-min font-hindSilliguri font-thin mt-16 mb-10'>About</div>
 {/* <Person  /> */}
 <div className='text-base lg:text-xl tracking-normal w-4/5 md:3/4 lg:w-1/2 text-left text-wrap text-white font-hindSilliguri font-thin leading-relaxed m-auto py-2'>
-  I enjoy learning new things, creating new things, and finding solutions. Software engineering is fun because you get to create and learn at the same time. When not at my computer I may
-  be catching a movie, enjoying nature, or staying fit.
+  I enjoy untangling knots and constructing furniture. Software Engineering is fun because you get to find solutions and create things all the time! I'm passionate about learning and sharing.
+  Outside of that I have many other interests including nature, reading, and martial arts.
+
+  <div className='text-green-300'>Please note this website is currently a work in progress</div>
 </div>
 
 <div id="skill-container" className='flex m-auto justify-center flex-wrap w-4/5'>
