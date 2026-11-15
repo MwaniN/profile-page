@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Personal planning notes
+PLAN.md
+
+# Claude Code settings
+.claude/settings.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
