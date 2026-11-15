@@ -25,11 +25,11 @@ const ProjectCard = ( { title, url, description, github, image, alt, id} : Proje
       <img src={image} alt={alt} className='contain-content'/>
       </div>
       <div id="info" className='relative -left-5 top-1 md:top-5 lg:-left-20 lg:top-20 w-[100vh] h-fit'>
-      <h2 id="title" className="text-white">{title}</h2>
-      <h3 id="description" className="text-white relative">{description}</h3>
-      <a href={url} className="text-white block hover:text-green-400">
+      <h2 id="title">{title}</h2>
+      <h3 id="description" className="relative">{description}</h3>
+      <a href={url} className="block hover:text-green-400">
       <Link to="/#projects">Live App</Link></a>
-      <a href={github} target="_blank" className="text-white block hover:text-green-400">Learn More</a>
+      <a href={github} target="_blank" className="block hover:text-green-400">Learn More</a>
       </div>
 
     </div>

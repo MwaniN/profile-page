@@ -1,5 +1,4 @@
 // import { Link } from 'react-router-dom';
-import Header from './Header/Header.tsx';
 //import { ReactComponent as Person } from "../../assets/person-outline.svg";
 import css from './images/css.png';
 import express from './images/express.png';
@@ -28,11 +27,10 @@ const About = () => {
 
 // Make changes in the global css file for the font size for the skill tree, too tedious to do it otherwise.
 
-  return (<div id="about" className='min-h-screen min-w-screen'>
-    <Header />
-<div className='text-4xl md:text-5xl lg:text-6xl text-white m-auto w-min font-hindSilliguri font-thin mt-16 mb-10'>About</div>
+  return (<div id="about" className='min-h-screen'>
+<div className='text-4xl md:text-5xl lg:text-6xl m-auto w-min mt-16 mb-10'>About</div>
 {/* <Person  /> */}
-<div className='text-base lg:text-xl tracking-normal w-4/5 md:3/4 lg:w-1/2 text-left text-wrap text-white font-hindSilliguri font-thin leading-relaxed m-auto py-2'>
+<div className='text-base lg:text-xl tracking-normal w-4/5 md:w-3/4 lg:w-1/2 text-left text-wrap leading-relaxed m-auto py-2'>
   I enjoy untangling knots and constructing furniture. Software Engineering is fun because you get to find solutions and create things all the time! I'm passionate about learning and sharing.
   Outside of that I have many other interests including nature, reading, and martial arts.
 
@@ -43,53 +41,53 @@ const About = () => {
   <div id="skill-row-1" className='flex-col mx-3 my-4 pt-8'>
   <div id="css" className='min-h-fit w-[6vh] border-opacity-80 border-solid border-white'>
   <img className="bg-transparent object-scale-down" src={css} alt="CSS Logo" />
-  <text className='text- text-white max-w-fit max-h-fit m-auto block'>CSS</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>CSS</text>
 </div>
 <div id="express" className='min-h-fit w-[6vh] flex-row'>
   <img className="bg-slate-500 object-scale-down justify-center" src={express} alt="Express Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>EXPRESS</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>EXPRESS</text>
 </div>
 <div id="git" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={git} alt="Git Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>GIT</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>GIT</text>
 </div>
   </div>
 
   <div id="skill-row-2" className='flex-col mx-3 my-4'>
   <div id="html" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={html} alt="Html Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>HTML</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>HTML</text>
 </div>
 <div id="javascript" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={javascript} alt="JavaScript Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>JAVASCRIPT</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>JAVASCRIPT</text>
 </div>
 <div id="mongodb" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={mongodb} alt="Mongodb Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>MONGODB</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>MONGODB</text>
 </div>
 <div id="node" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={node} alt="Node Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>NODE.JS</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>NODE.JS</text>
 </div>
 <div id="postgres" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={postgres} alt="Postgres Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>POSTGRESQL</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>POSTGRESQL</text>
 </div>
   </div>
 
   <div id="skill-row-3" className='flex-col mx-3 my-4 pt-8'>
   <div id="react" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={react} alt="React Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>REACT.JS</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>REACT.JS</text>
 </div>
 <div id="tailwind" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={tailwind} alt="Tailwind Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>TAILWIND CSS</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>TAILWIND CSS</text>
 </div>
 <div id="typescript" className='min-h-fit w-[6vh]'>
   <img className="bg-transparent object-scale-down" src={typescript} alt="Typescript Logo" />
-  <text className='text-sm text-white max-w-fit max-h-fit m-auto block'>TYPESCRIPT</text>
+  <text className='text-sm max-w-fit max-h-fit m-auto block'>TYPESCRIPT</text>
 </div>
   </div>
 </div>

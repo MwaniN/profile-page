@@ -18,8 +18,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div id="projects" className="min-h-screen min-w-screen">
-      <div className="text-white w-min m-auto text-5xl pt-16">Projects</div>
+    <div id="projects" className="min-h-screen">
+      <div className="w-min m-auto text-5xl pt-16">Projects</div>
       {function () {
         const projectList = projects.map(({ title, url, github, description, image, alt, id }) => {
           return <ProjectCard title={title} url={url} github={github} description={description}
