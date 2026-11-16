@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply scroll-pt-14;
+    @apply scroll-pt-14 scroll-smooth;
   }
   body {
     @apply font-hindSilliguri font-light text-white;

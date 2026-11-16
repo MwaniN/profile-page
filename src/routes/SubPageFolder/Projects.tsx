@@ -1,16 +1,16 @@
 
 import ProjectCard from "./ProjectCard/ProjectCard";
-import portfolio from "./images/portfolio-site.png";
+import portfolio from "../../assets/projects/portfolio-site.png";
 
 
 const projects = [
   {
     title: "Portfolio Site",
-    url: "mwani.info/#projects",
+    url: "https://mwani.info",
     github: "https://github.com/MwaniN/profile-page",
     description: "This site, built with TypeScript, React and Tailwind CSS",
     image: portfolio,
-    alt: "Test landscape picture",
+    alt: "Screenshot of the portfolio site's home page, reading \"Hello, I'm Mwani. I'm a full stack software engineer.\"",
     id: "portfolio-site"
 
   }
