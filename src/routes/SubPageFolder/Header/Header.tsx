@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 
   return (
-    <header className='flex items-center bg-gray-800 justify-center px-3 py-3 sticky top-0 z-50 w-full text-base md:text-xl md:justify-end'>
-      <ul className='text-blue-200 flex items-center'>
+    <header className='flex items-center bg-gray-800 justify-center px-3 h-14 sticky top-0 z-50 w-full text-base md:text-xl md:justify-end'>
+      <ul className='text-blue-200 flex items-center whitespace-nowrap'>
         <li className='px-3 md:px-4 hover:text-white focus:text-white focus:outline-none'>
         <Link to="/#main">Home</Link>
           </li>
