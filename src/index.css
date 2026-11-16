@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-pt-14;
+  }
+  body {
+    @apply font-hindSilliguri font-light text-white;
+  }
+}
