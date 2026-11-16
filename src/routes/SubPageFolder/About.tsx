@@ -39,53 +39,53 @@ const About = () => {
 
 <div id="skill-container" className='flex m-auto justify-center flex-wrap w-4/5'>
   <div id="skill-row-1" className='flex-col mx-3 my-4 pt-8'>
-  <div id="css" className='min-h-fit w-[6vh] border-opacity-80 border-solid border-white'>
+  <div id="css" className='min-h-fit w-14 border-opacity-80 border-solid border-white'>
   <img className="bg-transparent object-scale-down" src={css} alt="CSS Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>CSS</text>
 </div>
-<div id="express" className='min-h-fit w-[6vh] flex-row'>
+<div id="express" className='min-h-fit w-14 flex-row'>
   <img className="bg-slate-500 object-scale-down justify-center" src={express} alt="Express Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>EXPRESS</text>
 </div>
-<div id="git" className='min-h-fit w-[6vh]'>
+<div id="git" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={git} alt="Git Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>GIT</text>
 </div>
   </div>
 
   <div id="skill-row-2" className='flex-col mx-3 my-4'>
-  <div id="html" className='min-h-fit w-[6vh]'>
+  <div id="html" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={html} alt="Html Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>HTML</text>
 </div>
-<div id="javascript" className='min-h-fit w-[6vh]'>
+<div id="javascript" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={javascript} alt="JavaScript Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>JAVASCRIPT</text>
 </div>
-<div id="mongodb" className='min-h-fit w-[6vh]'>
+<div id="mongodb" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={mongodb} alt="Mongodb Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>MONGODB</text>
 </div>
-<div id="node" className='min-h-fit w-[6vh]'>
+<div id="node" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={node} alt="Node Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>NODE.JS</text>
 </div>
-<div id="postgres" className='min-h-fit w-[6vh]'>
+<div id="postgres" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={postgres} alt="Postgres Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>POSTGRESQL</text>
 </div>
   </div>
 
   <div id="skill-row-3" className='flex-col mx-3 my-4 pt-8'>
-  <div id="react" className='min-h-fit w-[6vh]'>
+  <div id="react" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={react} alt="React Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>REACT.JS</text>
 </div>
-<div id="tailwind" className='min-h-fit w-[6vh]'>
+<div id="tailwind" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={tailwind} alt="Tailwind Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>TAILWIND CSS</text>
 </div>
-<div id="typescript" className='min-h-fit w-[6vh]'>
+<div id="typescript" className='min-h-fit w-14'>
   <img className="bg-transparent object-scale-down" src={typescript} alt="Typescript Logo" />
   <text className='text-sm max-w-fit max-h-fit m-auto block'>TYPESCRIPT</text>
 </div>
