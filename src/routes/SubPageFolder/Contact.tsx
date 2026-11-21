@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact" className="min-h-screen">
       <div id="contact-section" className="justify-center">
-      <text className="text-lg max-w-min bg-blue-500 justify-center"> Contact Me</text>
+      <span className="text-lg max-w-min bg-blue-500 justify-center"> Contact Me</span>
       <form className="m-auto">
 
       <label htmlFor="email">Your Email</label>

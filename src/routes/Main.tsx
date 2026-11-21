@@ -1,31 +1,19 @@
-// import React from 'react';
-import { Link } from 'react-router-dom';
-import ScrollToHashElement from '../scrollToHashElement/scrollToHashElement.tsx';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-
-// // const downArrow = <FontAwesomeIcon icon={faArrowDown} size="sm"/>
-
-
 function Main() {
 
   return (
 
     <div id="main" className="bg-black min-h-screen z-20 m-0">
-      <canvas id="canvas" className="h-full w-full absolute z-10 pointer-events-none"></canvas>
-      <ScrollToHashElement />
     <div className="flex h-screen">
       <div className="m-auto">
       <h1 className="text-5xl lg:text-7xl tracking-normal text-center leading-10 mx-2">
       Hello, I'm <span className="text-5xl lg:text-7xl text-red-500 leading-10 tracking-normal inline-block">Mwani</span>.
     </h1>
-    <h1 className="text-5xl lg:text-7xl tracking-normal text-center leading-tight my-2 mx-2">
+    <p className="text-5xl lg:text-7xl tracking-normal text-center leading-tight my-2 mx-2">
       I'm a human who does support engineering and full stack software engineering.
-    </h1>
-    <button className='text-3xl lg:text-5xl m-auto text-red-500 leading-10 tracking-normal block'>
-        <Link to="/#about">View My Work</Link>
-        {/* <Link to="/#about" className='block w-min m-auto'>{downArrow}</Link> */}
-        </button>
+    </p>
+    <a href="#about" className='text-3xl lg:text-5xl w-fit mx-auto text-red-500 leading-10 tracking-normal block'>
+        View My Work
+    </a>
       </div>
     </div>
     </div>
