@@ -2,7 +2,7 @@
 
 This is a portfolio page designed to practice TypeScript and Tailwind CSS, and to share my work.
 
-Live at [mwani.info](https://mwani.info)
+Live soon at [mwani.info](https://mwani.info)
 
 ## Technologies used
 
